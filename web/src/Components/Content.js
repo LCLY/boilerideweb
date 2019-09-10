@@ -1,7 +1,5 @@
 import React from "react";
 import { Container, Header } from "semantic-ui-react";
-import ARHololens from "../Download/WallCracksAR.pdf";
-import demoVid from "../Download/demo.mp4";
 const Content = () => {
     return (
         <div className="container--margin">
@@ -71,10 +69,7 @@ const Content = () => {
                     crack on the wall, the application should be able to detect
                     and label the cracks with important relevant information.
                 </p>
-                <h4>Demo:</h4>
-                <video width="100%" height="100%" controls>
-                    <source src={demoVid} type="video/mp4" />
-                </video>
+
                 <h3>Current features</h3>
                 <p>
                     When user positions himself/herself in front of a wall and
@@ -97,12 +92,7 @@ const Content = () => {
                     Weekly documentations to keep track of progress and to act
                     as a reference/reminder for future self or other students.
                 </p>
-                <iframe src={ARHololens} width="100%" height="500px" />
-                <div>
-                    <a href={ARHololens} target="_blank">
-                        View pdf in different tab
-                    </a>
-                </div>
+
                 <h3>Future goals</h3>
                 <p>
                     Display more accurate and precise data about the cracks such
