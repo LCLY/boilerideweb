@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/boilerideweb/static/js/main.9f56ec94.chunk.js",
+    "main.js.map": "/boilerideweb/static/js/main.9f56ec94.chunk.js.map",
+    "runtime~main.js": "/boilerideweb/static/js/runtime~main.a603313c.js",
+    "runtime~main.js.map": "/boilerideweb/static/js/runtime~main.a603313c.js.map",
+    "static/js/2.c524c5c0.chunk.js": "/boilerideweb/static/js/2.c524c5c0.chunk.js",
+    "static/js/2.c524c5c0.chunk.js.map": "/boilerideweb/static/js/2.c524c5c0.chunk.js.map",
+    "index.html": "/boilerideweb/index.html",
+    "precache-manifest.83c2e09d9636e58dc193126d2db26800.js": "/boilerideweb/precache-manifest.83c2e09d9636e58dc193126d2db26800.js",
+    "service-worker.js": "/boilerideweb/service-worker.js"
+  }
+}
