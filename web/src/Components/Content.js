@@ -61,6 +61,13 @@ const Content = () => {
                         information in the settings page.
                     </p>
                 </div>
+                <img src={createOffer} className="image--format"></img>
+                <img src={createRequest} className="image--format"></img>
+                <img src={searchRideOffer} className="image--format"></img>
+                <img src={createOffer} className="image--format"></img>
+                <img src={rideHistory} className="image--format"></img>
+                <img src={pointSystem} className="image--format"></img>
+
                 <h3 id="documentDiv">Documentations</h3>
                 <p>
                     Weekly documentations to keep track of progress and to act
