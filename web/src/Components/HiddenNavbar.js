@@ -32,7 +32,7 @@ class HiddenNavbar extends React.Component {
                             <div className="hidden__top">
                                 <a className="hidden__text" href="#">
                                     <div className="hidden__home">
-                                        MR Cracks detection
+                                        Boileride
                                     </div>
                                 </a>
                                 <div className="hidden__icon__div">
