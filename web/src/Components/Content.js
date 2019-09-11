@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Header } from "semantic-ui-react";
+import {}
 const Content = () => {
     return (
         <div className="container--margin">
