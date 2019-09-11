@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Header } from "semantic-ui-react";
-import {}
+import { createOffer } from "../Images/createoffer.gif";
 const Content = () => {
     return (
         <div className="container--margin">
