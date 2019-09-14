@@ -39,31 +39,31 @@ const Content = () => {
                     <h3 id="demoVideo">How it works</h3>
                 </div>
                 {/* ============== Sign in/up ============== */}
-
                 <div className="paragraph--div">
-                    <h3 style={{ margin: 0 }}>Sign Up </h3>
+                    <h4 style={{ marginBottom: "0.5rem" }}>Sign Up </h4>
                     <p>
                         Users can sign up to create a new account after keying
                         in all the required information and submit the form.
                     </p>
-                    <h3 style={{ margin: 0 }}>Forget Password</h3>
-                    <p>
-                        There is also a forget password feature where the users
-                        will be required to enter a verification key from the
-                        verification email received in order to reset the
-                        password.
-                    </p>
                 </div>
-
                 <div className="paragraph--div">
-                    <h3 style={{ margin: 0 }}>Sign In</h3>
+                    <h4 style={{ marginBottom: "0.5rem" }}>Sign In</h4>
                     <p>
                         Now users can use the newly created account to sign in
                         and access the home page. Users can also change their
                         information in the settings page.
                     </p>
                 </div>
-                <Carousel>
+                <div className="paragraph--div">
+                    <h4 style={{ marginBottom: "0.5rem" }}>Reset Password</h4>
+                    <p>
+                        A password reset feature where the users will be
+                        required to enter a verification key from the
+                        verification email received in order to reset the
+                        password.
+                    </p>
+                </div>
+                <Carousel style={{ marginTop: "1rem" }}>
                     <div>
                         <img
                             src={signUp}
@@ -82,13 +82,17 @@ const Content = () => {
                         <p className="legend">Sign in</p>
                     </div>
                 </Carousel>
+                <div className="underline"></div>
                 {/* ============== Create ride offer/request ============== */}
-                <h3>Creating ride offer/request</h3>
+                <h4 style={{ marginBottom: "0.5rem" }}>
+                    Creating ride offer/request
+                </h4>
                 <p>
                     User can either create their ride request or offer by
                     putting in required information such as the pick up
                     location, destination, date/time, the number of seats
-                    available, the room for how many luggages and amenities{" "}
+                    available, the room for how many luggages and the amenities
+                    the user desires.
                 </p>
                 <Carousel>
                     <div>
@@ -97,7 +101,7 @@ const Content = () => {
                             alt="create offer"
                             className="image--format"
                         ></img>
-                        <p style={{ fontSize: "2rem" }}>Create Offer</p>
+                        <p className="legend">Create Ride Offer</p>
                     </div>
                     <div>
                         <img
@@ -106,42 +110,56 @@ const Content = () => {
                             className="image--format"
                         ></img>
 
-                        <p style={{ fontSize: "2rem" }}>Create Request</p>
+                        <p className="legend">Create Ride Request</p>
                     </div>
                 </Carousel>
-                <img
-                    src={searchRideOffer}
-                    alt="search ride offer"
-                    className="image--format"
-                ></img>
-                <img
-                    src={rideHistory}
-                    alt="ride history"
-                    className="image--format"
-                ></img>
-                <img
-                    src={pointSystem}
-                    alt="point system"
-                    className="image--format"
-                ></img>
-                <h3 id="document">Documentations</h3>
+                <div className="underline"></div>
+                {/* search ride */}
+                <h4 style={{ marginBottom: "0.5rem" }}>
+                    Search ride offer/request
+                </h4>
                 <p>
-                    Weekly documentations to keep track of progress and to act
-                    as a reference/reminder for future self or other students.
+                    User can search for available ride offers or requests after
+                    entering relevant information such as pick up location, drop
+                    off destination, the date, time, seats requested and number
+                    of luggages you have. You can also decide to have more than
+                    1 ride during your travel.
                 </p>
-                <h3>Future goals</h3>
+                <h4 style={{ marginBottom: "0.5rem" }}>Ride Status</h4>
                 <p>
-                    Display more accurate and precise data about the cracks such
-                    as location, date or history, severity, future predictions
-                    of the cracks and perhaps a display of the buildings BIM
-                    model behind the wall cracks.
-                    <br /> <br />
-                    Being able to obtain all these important data with just a
-                    glance would improve the efficiency with inspections and
-                    maintenance. For example, the inspector will know the
-                    severity of the wall cracks he is looking at and he can
-                    decide the priority of fixing it.
+                    You can check your ride statuses by going to the My Ride
+                    Offer/Request pages. For example, the ride offers you
+                    created or accepted, the same goes to ride requests. The
+                    page will also show the rides in a list with different
+                    colors to indicate its current status, whether it is still
+                    on going or cancelled.
                 </p>
+                <Carousel>
+                    <div>
+                        <img
+                            src={searchRideOffer}
+                            alt="search ride offer"
+                            className="image--format"
+                        ></img>
+                        <p className="legend">Search Ride Offer</p>
+                    </div>
+                    <div>
+                        <img
+                            src={rideHistory}
+                            alt="ride history"
+                            className="image--format"
+                        ></img>
+                        <p className="legend">Ride History</p>
+                    </div>
+                    <div>
+                        <img
+                            src={pointSystem}
+                            alt="point system"
+                            className="image--format"
+                        ></img>
+                        <p className="legend">Point system</p>
+                    </div>
+                </Carousel>
             </Container>
         </div>
     );
