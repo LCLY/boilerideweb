@@ -11,7 +11,7 @@ const Navbar = () => {
                     <Menu.Item as="a" href="#">
                         Home
                     </Menu.Item>
-                    <Menu.Item as="a" href="#demoVideo">
+                    <Menu.Item as="a" href="#demo">
                         Demo
                     </Menu.Item>
                     <Menu.Item as="a" href="#document">
