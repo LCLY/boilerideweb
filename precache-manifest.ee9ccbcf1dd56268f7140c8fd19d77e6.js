@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a24454b3b7f47329879e739a67cf22e3",
+    "revision": "81f730bf0bed94ed5fa8f961cb499ff4",
     "url": "/boilerideweb/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/boilerideweb/static/css/2.3c1ddb0a.chunk.css"
   },
   {
-    "revision": "7ec6238d4d94fb6f4f4c",
+    "revision": "09e8b0014c794f13c2aa",
     "url": "/boilerideweb/static/css/main.e2f93b94.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/boilerideweb/static/js/2.de93a560.chunk.js"
   },
   {
-    "revision": "7ec6238d4d94fb6f4f4c",
-    "url": "/boilerideweb/static/js/main.9669a0b3.chunk.js"
+    "revision": "09e8b0014c794f13c2aa",
+    "url": "/boilerideweb/static/js/main.f4b86689.chunk.js"
   },
   {
     "revision": "9caea9b19fb36cb35467",
