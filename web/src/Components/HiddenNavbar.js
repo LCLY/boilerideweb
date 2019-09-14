@@ -66,26 +66,16 @@ class HiddenNavbar extends React.Component {
 
                                     <a
                                         className="hidden__text"
-                                        href="#document"
-                                        onClick={this.handleNavbarClick}
-                                    >
-                                        <div className="hidden__items">
-                                            Documentation
-                                        </div>
-                                    </a>
-
-                                    <a
-                                        className="hidden__text"
                                         href="#footerDiv"
                                         onClick={this.handleNavbarClick}
                                     >
-                                        <div className="hidden__items__even">
+                                        <div className="hidden__items">
                                             Other links
                                         </div>
                                     </a>
 
                                     <div
-                                        className="hidden__items"
+                                        className="hidden__items__even"
                                         style={{ padding: "1.2rem 0.5rem" }}
                                     >
                                         <a
