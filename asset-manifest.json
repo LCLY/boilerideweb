@@ -1,13 +1,24 @@
 {
   "files": {
-    "main.js": "/boilerideweb/static/js/main.9f56ec94.chunk.js",
-    "main.js.map": "/boilerideweb/static/js/main.9f56ec94.chunk.js.map",
+    "main.css": "/boilerideweb/static/css/main.e2f93b94.chunk.css",
+    "main.js": "/boilerideweb/static/js/main.9669a0b3.chunk.js",
+    "main.js.map": "/boilerideweb/static/js/main.9669a0b3.chunk.js.map",
     "runtime~main.js": "/boilerideweb/static/js/runtime~main.a603313c.js",
     "runtime~main.js.map": "/boilerideweb/static/js/runtime~main.a603313c.js.map",
-    "static/js/2.c524c5c0.chunk.js": "/boilerideweb/static/js/2.c524c5c0.chunk.js",
-    "static/js/2.c524c5c0.chunk.js.map": "/boilerideweb/static/js/2.c524c5c0.chunk.js.map",
+    "static/css/2.3c1ddb0a.chunk.css": "/boilerideweb/static/css/2.3c1ddb0a.chunk.css",
+    "static/js/2.de93a560.chunk.js": "/boilerideweb/static/js/2.de93a560.chunk.js",
+    "static/js/2.de93a560.chunk.js.map": "/boilerideweb/static/js/2.de93a560.chunk.js.map",
     "index.html": "/boilerideweb/index.html",
-    "precache-manifest.83c2e09d9636e58dc193126d2db26800.js": "/boilerideweb/precache-manifest.83c2e09d9636e58dc193126d2db26800.js",
-    "service-worker.js": "/boilerideweb/service-worker.js"
+    "precache-manifest.baa76e17c80fbe9105016dc064518eb6.js": "/boilerideweb/precache-manifest.baa76e17c80fbe9105016dc064518eb6.js",
+    "service-worker.js": "/boilerideweb/service-worker.js",
+    "static/css/2.3c1ddb0a.chunk.css.map": "/boilerideweb/static/css/2.3c1ddb0a.chunk.css.map",
+    "static/css/main.e2f93b94.chunk.css.map": "/boilerideweb/static/css/main.e2f93b94.chunk.css.map",
+    "static/media/createoffer.gif": "/boilerideweb/static/media/createoffer.16bc66e6.gif",
+    "static/media/createrequest.gif": "/boilerideweb/static/media/createrequest.59562c2a.gif",
+    "static/media/pointsystem.gif": "/boilerideweb/static/media/pointsystem.924a3a07.gif",
+    "static/media/ridehistory.gif": "/boilerideweb/static/media/ridehistory.a1313a6a.gif",
+    "static/media/searchrideoffer.gif": "/boilerideweb/static/media/searchrideoffer.20847d5b.gif",
+    "static/media/signin.gif": "/boilerideweb/static/media/signin.2c35e8f0.gif",
+    "static/media/signup.gif": "/boilerideweb/static/media/signup.e0bd7011.gif"
   }
 }
