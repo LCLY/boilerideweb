@@ -66,7 +66,7 @@ class HiddenNavbar extends React.Component {
 
                                     <a
                                         className="hidden__text"
-                                        href="#documentDiv"
+                                        href="#document"
                                         onClick={this.handleNavbarClick}
                                     >
                                         <div className="hidden__items">

@@ -7,8 +7,10 @@ import rideHistory from "../Images/ridehistory.gif";
 import searchRideOffer from "../Images/searchrideoffer.gif";
 import signIn from "../Images/signin.gif";
 import signUp from "../Images/signup.gif";
+import Carousel from "react-images";
 
 const Content = () => {
+    const images = [{ src: createOffer, src: createRequest }];
     return (
         <div className="container--margin">
             <Container text>
@@ -62,24 +64,15 @@ const Content = () => {
                     </p>
                 </div>
                 <h3>Creating ride offer/request</h3>
-                <div style={{ display: "flex" }}>
-                    <img
-                        src={createOffer}
-                        style={{ width: "50%" }}
-                        className="image--format"
-                    ></img>
-                    <img
-                        src={createRequest}
-                        style={{ width: "50%" }}
-                        className="image--format"
-                    ></img>
-                </div>
+
+                <Carousel views={images} />
+
                 <img src={searchRideOffer} className="image--format"></img>
                 <img src={createOffer} className="image--format"></img>
                 <img src={rideHistory} className="image--format"></img>
                 <img src={pointSystem} className="image--format"></img>
 
-                <h3 id="documentDiv">Documentations</h3>
+                <h3 id="document">Documentations</h3>
                 <p>
                     Weekly documentations to keep track of progress and to act
                     as a reference/reminder for future self or other students.

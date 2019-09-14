@@ -14,7 +14,7 @@ const Navbar = () => {
                     <Menu.Item as="a" href="#demoVideo">
                         Demo
                     </Menu.Item>
-                    <Menu.Item as="a" href="#documentDiv">
+                    <Menu.Item as="a" href="#document">
                         Documentation
                     </Menu.Item>
                     <Menu.Item as="a" href="#footerDiv">
