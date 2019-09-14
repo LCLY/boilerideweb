@@ -61,8 +61,19 @@ const Content = () => {
                         information in the settings page.
                     </p>
                 </div>
-                <img src={createOffer} className="image--format"></img>
-                <img src={createRequest} className="image--format"></img>
+                <h3>Creating ride offer/request</h3>
+                <div style={{ display: "flex" }}>
+                    <img
+                        src={createOffer}
+                        style={{ width: "50%" }}
+                        className="image--format"
+                    ></img>
+                    <img
+                        src={createRequest}
+                        style={{ width: "50%" }}
+                        className="image--format"
+                    ></img>
+                </div>
                 <img src={searchRideOffer} className="image--format"></img>
                 <img src={createOffer} className="image--format"></img>
                 <img src={rideHistory} className="image--format"></img>
